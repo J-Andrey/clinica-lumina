@@ -1,0 +1,15 @@
+CLÍNICA LUMINA — RODAPÉ MODERNIZADO
+
+1) Os arquivos index.html, scss/style.scss, css/style.css e js/main.js foram atualizados.
+2) Para ativar os quatro links e o botão Agendar Consulta, abra js/main.js
+   e preencha o objeto CLINICA_REDES com dados OFICIAIS:
+   whatsapp: '5511999998888' (somente exemplo de formato)
+   facebook: 'https://www.facebook.com/perfil-da-clinica'
+   instagram: 'https://www.instagram.com/perfil-da-clinica'
+   linkedin: 'https://www.linkedin.com/company/perfil-da-clinica'
+   ATENÇÃO: são exemplos de estrutura, não perfis verdadeiros.
+3) Enquanto não existirem dados reais, os rótulos permanecem placeholders e os links inativos.
+4) A versão de projeto continua usando Sass (npm run sass ou npx sass --watch scss/style.scss:css/style.css).
+5) Ícones de marcas redes sociais: Font Awesome Free 6.7.2 (CC BY 4.0).
+   Fonte/licença: https://fontawesome.com/license/free
+6) Política de Privacidade e Termos de Uso são textos informativos até que as páginas sejam criadas.

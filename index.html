@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#007e74">
+  <meta name="description" content="Clínica Lumina — saúde integrada, atendimento humanizado, consultas, exames e prevenção. Página demonstrativa.">
+  <title>Clínica Lumina | Saúde Integrada</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <!-- Ícones vetoriais próprios da interface; nenhuma biblioteca é necessária. -->
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+    <symbol id="icon-brand" viewBox="0 0 70 64">
+      <path d="M34 57 10 34C-5 20 8 5 22 10c6 2 10 6 12 10 3-5 7-9 13-10 14-4 26 12 11 26" fill="none" stroke="currentColor" stroke-width="5.4" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M52 35v21M41.5 45.5h21" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-heartbeat" viewBox="0 0 24 24">
+      <path d="M20.8 4.8c-2.2-2.2-5.6-2-7.6.2L12 6.3 10.8 5C8.7 2.8 5.3 2.6 3.1 4.8c-2.2 2.2-2.3 5.8 0 8.1l8.9 8.2 8.9-8.2c2.3-2.3 2.2-5.9-.1-8.1Z"/><path d="M2.1 12h5l2-4 3.2 8.1 2.7-5.1h6.4"/>
+    </symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m10 8 6 4-6 4Z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24"><path d="M12 2 21 6v6c0 5-3.3 8.1-9 10-5.7-1.9-9-5-9-10V6l9-4Z"/><path d="m8.2 12 2.4 2.4L16 9"/></symbol>
+    <symbol id="icon-star" viewBox="0 0 24 24"><path d="m12 2.6 2.95 6.1 6.74.98-4.88 4.75 1.15 6.72L12 18.01l-5.96 3.14 1.14-6.72-4.87-4.75 6.74-.98L12 2.6Z"/></symbol>
+    <symbol id="icon-building" viewBox="0 0 24 24"><path d="M3 22h18M5 22V9l7-5 7 5v13M10 22v-6h4v6M9 11v2M15 11v2M2 22V13h3m14 1h3v8"/></symbol>
+    <symbol id="icon-stethoscope" viewBox="0 0 24 24"><path d="M6 3v5a6 6 0 0 0 12 0V3M4 3h4m8 0h4M12 14v2a5 5 0 0 0 10 0v-1"/><circle cx="21" cy="13.5" r="1.7"/></symbol>
+    <symbol id="icon-flask" viewBox="0 0 24 24"><path d="M9 2h6M10 2v7l-6.5 10a2 2 0 0 0 1.7 3h13.6a2 2 0 0 0 1.7-3L14 9V2"/><path d="M7 16h10"/></symbol>
+    <symbol id="icon-image" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="18" rx="2"/><circle cx="8" cy="9" r="1.3"/><path d="m2 18 5.5-5.5 4 3 4.5-5 6 6"/></symbol>
+    <symbol id="icon-syringe" viewBox="0 0 24 24"><path d="m18 2 4 4m-6 0 4 4M13 9l6-6M4 18l10-10 4 4L8 22l-4-4Zm4-4 4 4m-5 3-4 2 1-5"/></symbol>
+    <symbol id="icon-handheart" viewBox="0 0 24 24"><path d="M12 11.2 6.8 6.6a3.4 3.4 0 0 1 4.8-4.8L12 2.3l.4-.5a3.4 3.4 0 0 1 4.8 4.8L12 11.2Z"/><path d="M2 15.5c2.4-1.8 4.8-1.5 7-.5l3.4 1.3c1.2.5 2-.1 2.2-.8.1-.8-.4-1.5-1.6-1.8L10 13h7a3.5 3.5 0 0 1 3.3 2.2L22 19l-8.7 3H8l-6-2v-4.5Z"/></symbol>
+    <symbol id="icon-users" viewBox="0 0 24 24"><circle cx="8" cy="7" r="3"/><path d="M2 21v-2a6 6 0 0 1 12 0v2M17 4a3 3 0 0 1 0 6m1 5a5 5 0 0 1 4 5v1"/></symbol>
+    <symbol id="icon-gem" viewBox="0 0 24 24"><path d="M7 3h10l5 7-10 12L2 10l5-7ZM2 10h20M7 3l-2 7 7 12 7-12-2-7"/></symbol>
+    <symbol id="icon-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 2v6M17 2v6M3 10h18M8 15l2 2 4-4"/></symbol>
+    <symbol id="icon-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24"><path d="M5 5 19 19M19 5 5 19"/></symbol>
+    <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+
+    <!-- Font Awesome Free Brands CC BY 4.0: https://fontawesome.com/license/free -->
+    <symbol id="brand-whatsapp" viewBox="0 0 448 512"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></symbol>
+    <symbol id="brand-instagram" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></symbol>
+    <symbol id="brand-facebook" viewBox="0 0 320 512"><path fill="currentColor" d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></symbol>
+    <symbol id="brand-linkedin" viewBox="0 0 448 512"><path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></symbol>
+
+    <!-- Ícones adicionais para os cartões ilustrativos de especialidades -->
+    <symbol id="icon-pediatria" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="M6 7c1.5 0 2.5-.8 3-2M18 7c-1.5 0-2.5-.8-3-2M9 10h.01M15 10h.01M10 13c1.2 1 2.8 1 4 0M4 22c.8-4.1 3.5-6 8-6s7.2 1.9 8 6"/></symbol>
+    <symbol id="icon-ginecologia" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6.5"/><path d="M12 15.5V22M8.5 19h7"/></symbol>
+    <symbol id="icon-dermatologia" viewBox="0 0 24 24"><path d="M12 3c-5.2 0-8 4.2-8 9.1 0 4.7 3.2 8.9 8 8.9s8-4.2 8-8.9C20 7.2 17.2 3 12 3Z"/><path d="M8.5 11.2h.01M15.5 11.2h.01M9 16.3c1.8 1.3 4.2 1.3 6 0"/></symbol>
+    <symbol id="icon-ortopedia" viewBox="0 0 24 24"><path d="M6.3 6.3a2.6 2.6 0 1 1 3.8-3.4l4 4a2.8 2.8 0 0 1 2.8 2.8l4 4a2.6 2.6 0 1 1-3.4 3.8 2.6 2.6 0 1 1-3.8 3.4l-4-4a2.8 2.8 0 0 1-2.8-2.8l-4-4a2.6 2.6 0 1 1 3.4-3.8Z"/></symbol>
+  </svg>
+
+  <header class="header">
+    <div class="header__inner">
+      <div class="brand" aria-label="Clínica Lumina — Saúde Integrada">
+        <svg class="brand__icon" aria-hidden="true"><use href="#icon-brand"/></svg>
+        <div class="brand__name"><strong>Clínica Lumina</strong><span>SAÚDE INTEGRADA</span></div>
+      </div>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-controls="nav-principal" aria-expanded="false">
+        <svg aria-hidden="true"><use href="#icon-menu"/></svg>
+      </button>
+
+      <nav class="nav" id="nav-principal" aria-label="Menu principal">
+        <a class="nav__link nav__link--active" href="#inicio">Início</a>
+        <a class="nav__link" href="#especialidades">Especialidades</a>
+
+        <a class="nav__link" href="#clinica">A Clínica</a>
+
+        <button class="appointment-button appointment-button--mobile" type="button" data-open-appointment><svg class="footer__whatsapp-icon" aria-hidden="true"><use href="#brand-whatsapp"/></svg>Agendar Consulta</button>
+      </nav>
+      <button class="appointment-button" type="button" data-open-appointment>
+        <svg class="footer__whatsapp-icon" aria-hidden="true"><use href="#brand-whatsapp"/></svg>
+        Agendar Consulta
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__photo">
+        <svg class="hero__clip-def" width="0" height="0" aria-hidden="true"><defs>
+          <clipPath id="hero-photo-mask" clipPathUnits="objectBoundingBox">
+            <path d="M .209 0 C .09 .15 .038 .30 .054 .49 C .055 .66 .143 .86 .208 1 H 1 V 0 Z"/>
+          </clipPath>
+        </defs></svg>
+        <img src="assets/hero-lumina.png" alt="Médica com jaleco e estetoscópio na recepção da Clínica Lumina" width="1752" height="897" fetchpriority="high">
+        <svg class="hero__swoosh" viewBox="0 0 1000 461" preserveAspectRatio="none" aria-hidden="true">
+          <defs><linearGradient id="hero-grad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#00736d"/><stop offset=".48" stop-color="#00b99d"/><stop offset="1" stop-color="#b0e9e7"/></linearGradient></defs>
+          <path d="M209 0 C90 68 38 138 54 226 C55 307 143 398 208 461" fill="none" stroke="url(#hero-grad)" stroke-width="57"/>
+        </svg>
+        <svg class="hero__corner" viewBox="0 0 320 224" preserveAspectRatio="none" aria-hidden="true">
+          <defs><linearGradient id="corner-grad" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#006265"/><stop offset="1" stop-color="#008f85"/></linearGradient></defs>
+          <path d="M0 224C57 192 129 122 202 71 249 39 278 27 320 21V224Z" fill="url(#corner-grad)"/>
+          <path d="M38 224C96 188 145 127 207 78 259 38 286 30 320 31" stroke="#a9efea" stroke-width="2.5" fill="none"/>
+          <path d="M38 224C96 188 145 127 207 78 259 38 286 30 320 31" stroke="#d6fffc" stroke-width="5" fill="none" opacity=".18"/>
+          <path d="M239 133h17v-18a6 6 0 0 1 12 0v18h17a6 6 0 0 1 0 12h-17v18a6 6 0 0 1-12 0v-18h-17a6 6 0 0 1 0-12Z" fill="none" stroke="#8ff4ec" stroke-width="3.5" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="hero__container">
+        <div class="hero__copy">
+          <div class="hero__badge">
+            <span class="hero__badge-icon"><svg aria-hidden="true"><use href="#icon-heartbeat"/></svg></span>
+            <span>Cuidado completo para a sua saúde</span>
+          </div>
+          <h1 id="hero-title" class="hero__title">
+            <span>Saúde, bem-estar e</span>
+            <span>qualidade de vida</span>
+            <span class="hero__title-accent">em um só lugar</span>
+          </h1>
+          <p class="hero__description">Consultas, exames e acompanhamento especializado com uma equipe humanizada, estrutura moderna e atendimento de qualidade.</p>
+          <a href="#clinica" class="hero__learn">
+            <svg aria-hidden="true"><use href="#icon-play"/></svg>
+            Conheça a Clínica
+          </a>
+          <div class="hero__highlights" aria-label="Diferenciais da clínica">
+            <div class="hero__highlight"><svg aria-hidden="true"><use href="#icon-shield"/></svg><span>Atendimento<br>Humanizado</span></div>
+            <div class="hero__highlight"><svg aria-hidden="true"><use href="#icon-star"/></svg><span>Profissionais<br>Qualificados</span></div>
+            <div class="hero__highlight"><svg aria-hidden="true"><use href="#icon-building"/></svg><span>Estrutura<br>Moderna</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" aria-label="Serviços da Clínica Lumina">
+      <div class="services__grid">
+        <div class="service-card service-card--primary"><svg aria-hidden="true"><use href="#icon-stethoscope"/></svg><strong>Consultas<br>Especializadas</strong></div>
+        <div class="service-card"><svg aria-hidden="true"><use href="#icon-flask"/></svg><strong>Exames<br>Laboratoriais</strong></div>
+        <div class="service-card"><svg aria-hidden="true"><use href="#icon-image"/></svg><strong>Exames<br>de Imagem</strong></div>
+        <div class="service-card"><svg aria-hidden="true"><use href="#icon-syringe"/></svg><strong>Vacinas<br>e Prevenção</strong></div>
+        <div class="service-card"><svg aria-hidden="true"><use href="#icon-heartbeat"/></svg><strong>Check-up<br>Completo</strong></div>
+        <div class="service-card"><svg aria-hidden="true"><use href="#icon-handheart"/></svg><strong>Acompanhamento<br>Contínuo</strong></div>
+      </div>
+    </section>
+
+    <section class="about" id="clinica" aria-labelledby="about-title">
+      
+      <div class="about__container">
+        <div class="about__photo-frame"><img src="assets/consultorio-lumina.png" alt="Sala de atendimento da Clínica Lumina com maca e equipamentos" width="494" height="219" loading="lazy"></div>
+        <div class="about__content">
+          <span class="section-kicker">Sobre a Clínica</span>
+          <h2 id="about-title">Uma clínica pensada para você</h2>
+          <p>A Clínica Lumina oferece atendimento integrado, unindo tecnologia, experiência e um cuidado verdadeiramente humano. Nosso foco é promover saúde, prevenção e bem-estar em todas as fases da vida.</p>
+          <div class="about__values">
+            <div><svg aria-hidden="true"><use href="#icon-users"/></svg><strong>Equipe<br>Multidisciplinar</strong></div>
+            <div><svg aria-hidden="true"><use href="#icon-gem"/></svg><strong>Ambiente<br>Acolhedor</strong></div>
+            <div><svg aria-hidden="true"><use href="#icon-shield"/></svg><strong>Segurança<br>e Confiança</strong></div>
+          </div>
+        </div>
+      </div>
+      <svg class="about__watermark" viewBox="0 0 70 64" aria-hidden="true"><use href="#icon-brand"/></svg>
+    </section>
+
+    <!-- Especialidades demonstrativas: confirme a oferta antes da publicação. -->
+    <section class="specialties" id="especialidades" aria-labelledby="specialties-title">
+      <div class="specialties__container">
+        <div class="specialties__header">
+          <div class="specialties__intro">
+            <span class="section-kicker">Cuidado em cada fase da vida</span>
+            <h2 id="specialties-title">Nossas <span>Especialidades</span></h2>
+            <p>Exemplos de áreas de atendimento para cuidar da saúde em diferentes fases da vida.</p>
+          </div>
+        </div>
+        <div class="specialties__grid">
+          <article class="specialty-card">
+            <div class="specialty-card__top">
+              <span class="specialty-card__icon"><svg aria-hidden="true"><use href="#icon-stethoscope"/></svg></span>
+            </div>
+            <h3>Clínica Geral</h3>
+            <p>Acompanhamento clínico e orientações para o cuidado cotidiano da saúde.</p>
+            <span class="specialty-card__accent" aria-hidden="true"></span>
+          </article>
+          <article class="specialty-card">
+            <div class="specialty-card__top">
+              <span class="specialty-card__icon"><svg aria-hidden="true"><use href="#icon-heartbeat"/></svg></span>
+            </div>
+            <h3>Cardiologia</h3>
+            <p>Avaliação da saúde cardiovascular e acompanhamento preventivo.</p>
+            <span class="specialty-card__accent" aria-hidden="true"></span>
+          </article>
+          <article class="specialty-card">
+            <div class="specialty-card__top">
+              <span class="specialty-card__icon"><svg aria-hidden="true"><use href="#icon-pediatria"/></svg></span>
+            </div>
+            <h3>Pediatria</h3>
+            <p>Atenção à saúde e ao desenvolvimento de crianças e adolescentes.</p>
+            <span class="specialty-card__accent" aria-hidden="true"></span>
+          </article>
+          <article class="specialty-card">
+            <div class="specialty-card__top">
+              <span class="specialty-card__icon"><svg aria-hidden="true"><use href="#icon-ginecologia"/></svg></span>
+            </div>
+            <h3>Ginecologia</h3>
+            <p>Cuidados de saúde e acompanhamento ginecológico em diferentes fases da vida.</p>
+            <span class="specialty-card__accent" aria-hidden="true"></span>
+          </article>
+          <article class="specialty-card">
+            <div class="specialty-card__top">
+              <span class="specialty-card__icon"><svg aria-hidden="true"><use href="#icon-dermatologia"/></svg></span>
+            </div>
+            <h3>Dermatologia</h3>
+            <p>Avaliação e orientação sobre cuidados com a pele, cabelos e unhas.</p>
+            <span class="specialty-card__accent" aria-hidden="true"></span>
+          </article>
+          <article class="specialty-card">
+            <div class="specialty-card__top">
+              <span class="specialty-card__icon"><svg aria-hidden="true"><use href="#icon-ortopedia"/></svg></span>
+            </div>
+            <h3>Ortopedia</h3>
+            <p>Avaliação e acompanhamento de questões relacionadas ao sistema musculoesquelético.</p>
+            <span class="specialty-card__accent" aria-hidden="true"></span>
+          </article>
+        </div>
+        <p class="specialties__notice"><svg aria-hidden="true"><use href="#icon-shield"/></svg><span><strong>Conteúdo demonstrativo:</strong> especialidades e disponibilidade devem ser confirmadas antes de publicar o site.</span></p>
+      </div>
+    </section>
+  </main>
+
+
+        <footer class="footer" id="rodape" aria-label="Rodapé da Clínica Lumina">
+  <div class="footer__main" aria-label="Redes sociais da Clínica Lumina">
+    <a class="footer__social footer__social--whatsapp"
+       href="https://wa.me/551199990000"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="WhatsApp demonstrativo da Clínica Lumina">
+      <span class="footer__social-icon" aria-hidden="true"><svg><use href="#brand-whatsapp"/></svg></span>
+      <span class="footer__social-info">WhatsApp</span>
+    </a>
+
+    <div class="footer__social footer__social--facebook" aria-label="Facebook demonstrativo, sem link">
+      <span class="footer__social-icon" aria-hidden="true"><svg><use href="#brand-facebook"/></svg></span>
+      <span class="footer__social-info">Facebook</span>
+    </div>
+
+    <div class="footer__social footer__social--instagram" aria-label="Instagram demonstrativo, sem link">
+      <span class="footer__social-icon" aria-hidden="true"><svg><use href="#brand-instagram"/></svg></span>
+      <span class="footer__social-info">Instagram</span>
+    </div>
+
+    <div class="footer__social footer__social--linkedin" aria-label="LinkedIn demonstrativo, sem link">
+      <span class="footer__social-icon" aria-hidden="true"><svg><use href="#brand-linkedin"/></svg></span>
+      <span class="footer__social-info">LinkedIn</span>
+    </div>
+  </div>
+
+  <div class="footer__legal">
+    <p>© 2026 Clínica Lumina — Saúde Integrada. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+
+  <dialog class="appointment-dialog" id="appointment-dialog" aria-labelledby="appointment-dialog-title">
+    <button type="button" class="appointment-dialog__close" data-close-appointment aria-label="Fechar janela"><svg aria-hidden="true"><use href="#icon-close"/></svg></button>
+    <svg class="appointment-dialog__icon" aria-hidden="true"><use href="#icon-calendar"/></svg>
+    <h2 id="appointment-dialog-title">Agendar Consulta</h2>
+    <p>Este é um modelo de landing page. O WhatsApp de agendamento ainda não foi informado. Configure o número oficial em js/main.js para ativar o botão.</p>
+    <button type="button" class="appointment-dialog__confirm" data-close-appointment>Entendi</button>
+  </dialog>
+</body>
+</html>

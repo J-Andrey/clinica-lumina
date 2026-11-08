@@ -1,0 +1,13 @@
+{
+  "name": "clinica-lumina",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page responsiva da Clínica Lumina",
+  "scripts": {
+    "sass": "sass --watch scss/style.scss:css/style.css",
+    "build": "sass scss/style.scss css/style.css --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.80.0"
+  }
+}
